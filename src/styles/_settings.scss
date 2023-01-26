@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Vinky";
+    src: url(../assets/fonts/Vinky.ttf);
+}
+
+$title-font: "Vinky";
+
+h1 {
+    font-family: $title-font;
+}
