@@ -3,8 +3,36 @@
     src: url(../assets/fonts/RecoletaAlt-Black.ttf);
 }
 
-$title-font: "Recoleta Alt Black";
+@font-face {
+    font-family: "Poppins";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
 
-h1 {
-    font-family: $title-font;
+$title-font: "Recoleta Alt Black";
+$font: "Poppins";
+
+$black: #272727;
+
+@mixin rowCenterSpaceB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    h1 {
+        font-family: $title-font;
+        color: $black;
+    }
+
+    p {
+        font-family: $font;
+        font-size: 14px;
+        color: $black;
+    }
 }

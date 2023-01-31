@@ -1,0 +1,25 @@
+.navbar {
+    @include rowCenterSpaceB;
+    height: 4em;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.124);
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .navlinks {
+        @include rowCenterSpaceB;
+        width: 25em;
+        font-family: $font;
+        font-size: 14px;
+
+        .navlink {
+            text-decoration: none;
+            color: $black;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
