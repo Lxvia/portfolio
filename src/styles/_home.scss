@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 30em;
+        height: auto;
+    }
+}
