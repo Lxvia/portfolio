@@ -1,9 +1,5 @@
 .home {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    @include centerScreen;
     min-height: 90vh;
     flex-wrap: wrap;
 
@@ -12,10 +8,44 @@
         height: auto;
     }
 
+    .home-right {
+        margin-left: 2em;
+
+        div {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+
+            a {
+                margin-left: 2em;
+                color: $purple;
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            .btn-contact {
+                background: none;
+                outline: none;
+                border: solid 1px $purple;
+                width: 135px;
+                height: 35px;
+                border-radius: 2px;
+                font-family: $font;
+                color: $purple;
+                font-size: 15px;
+
+                &:hover {
+                    background-color: $purple;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
     h1 {
         font-size: 55px;
         text-align: left;
-        margin-left: 1.5em;
         line-height: 55pt;
 
         span {
@@ -25,10 +55,4 @@
         }
     }
 
-    a {
-        margin-left: 2em;
-        color: $purple;
-        font-size: 15px;
-        cursor: pointer;
-    }
 }
