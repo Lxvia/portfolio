@@ -20,7 +20,7 @@ const Home = () => {
         <h1>
           <span>Olivia,</span>
           <br />
-          Developpeuse
+          Développeuse
           <br /> Full Stack &<br /> Web designer
         </h1>
         <div>
