@@ -1,11 +1,26 @@
-.home{
+.home {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    flex-wrap: wrap;
 
-    img{
-        width: 30em;
+    img {
+        width: 500px;
         height: auto;
+    }
+
+    h1 {
+        font-size: 55px;
+        text-align: left;
+        margin-left: 1.5em;
+
+        span {
+            background-color: $purple;
+            border-radius: 5px;
+            padding: 0 6px 0 6px;
+        }
     }
 }
