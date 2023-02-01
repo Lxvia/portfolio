@@ -1,0 +1,19 @@
+.button {
+    button{
+        background: none;
+        outline: none;
+        border: solid 1px $purple;
+        width: 135px;
+        height: 35px;
+        border-radius: 2px;
+        font-family: $font;
+        color: $purple;
+        font-size: 15px;
+
+        &:hover{
+            background-color: $purple;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
