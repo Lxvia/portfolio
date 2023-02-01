@@ -1,0 +1,53 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $purple;
+    border-radius: 5px;
+    width: 411px;
+    height: 481px;
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .logos{
+        width: 13em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        img{
+            width: 44px;
+            height: auto;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        background: none;
+        outline: none;
+        border: solid 1px $yellow;
+        width: auto;
+        border-radius: 3px;
+        font-family: $font;
+        color: $yellow;
+        font-size: 15px;
+        padding: 4px 8px 4px 8px;
+
+        &:hover{
+            border: solid 1px white;
+            cursor: pointer;
+        }
+    }
+}
+
+.popup-overlay{
+    background-color: rgba(26, 26, 26, 0.235);
+}
