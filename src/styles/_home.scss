@@ -16,11 +16,19 @@
         font-size: 55px;
         text-align: left;
         margin-left: 1.5em;
+        line-height: 55pt;
 
         span {
             background-color: $purple;
             border-radius: 5px;
-            padding: 0 6px 0 6px;
+            padding: 0 15px 0 15px;
         }
+    }
+
+    a {
+        margin-left: 2em;
+        color: $purple;
+        font-size: 15px;
+        cursor: pointer;
     }
 }
