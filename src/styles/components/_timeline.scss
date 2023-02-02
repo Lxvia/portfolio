@@ -1,0 +1,29 @@
+.vertical-timeline-element {
+    .vertical-timeline-element-icon{
+        box-shadow: none;
+    }
+
+    .vertical-timeline-element-content {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 9px;
+        font-family: $font;
+
+        small{
+            color: $yellow;
+        }
+
+        h4{
+            font-size: 12px;
+        }
+
+        p{
+            color: white;
+            font-size: 15px;
+        }
+    }
+
+    .vertical-timeline-element-date {
+        display: none;
+    }
+}
