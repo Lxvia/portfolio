@@ -21,6 +21,11 @@
                 color: $purple;
                 font-size: 15px;
                 cursor: pointer;
+
+                &:hover{
+                   text-decoration: none; 
+                }
+                
             }
 
             .btn-contact {
