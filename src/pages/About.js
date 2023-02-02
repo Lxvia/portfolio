@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <div className="about">
         <h1>
-          Du design au code pour vous accompagner dans la
+          Du <span>design au code</span> pour vous accompagner dans la
           <br /> création de votre site web.
         </h1>
         <p>
