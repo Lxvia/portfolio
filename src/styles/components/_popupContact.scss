@@ -42,7 +42,8 @@
         padding: 4px 8px 4px 8px;
 
         &:hover{
-            border: solid 1px white;
+            background-color: $yellow;
+            color: $purple;
             cursor: pointer;
         }
     }
