@@ -3,6 +3,11 @@
     height: 4em;
     padding: 0 4em 0 4em;
     border-bottom: solid 1px rgba(0, 0, 0, 0.124);
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 
     h1 {
         font-size: 18px;

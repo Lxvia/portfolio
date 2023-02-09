@@ -6,14 +6,12 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 
 const App = () => {
-  return (
+  return (  
     <BrowserRouter>
      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+     <Home />
+     <About />
+     <Projects />
     </BrowserRouter>
   );
 };
