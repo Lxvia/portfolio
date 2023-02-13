@@ -25,10 +25,7 @@
 
             &:hover {
                 text-decoration: underline;
-            }
-
-            &:focus {
-                text-decoration: line-through;
+                cursor: pointer;
             }
         }
     }
