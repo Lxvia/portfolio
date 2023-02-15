@@ -43,7 +43,7 @@ const Navbar = () => {
           projets
         </Link>
       </div>
-      <p>toggle btn</p>
+        <p></p>
     </div>
   );
 };
