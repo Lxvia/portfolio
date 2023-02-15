@@ -49,7 +49,7 @@ const Timeline = () => {
     {
       title: "Webdesigner / Développeuse FullStack",
       description:
-        "Design et développement du site Stras.Dev avec Firebase, SASS et React JS, Aide aux préparatifs et à l’organisation du DevFest 2022 à Strasbourg",
+        "Design et développement du site Stras.Dev avec Firebase, SCSS et React JS, Aide aux préparatifs et à l’organisation du DevFest 2022 à Strasbourg",
       compagny: "Google Developer Group Strasbourg · Stage",
       date: "oct. 2022 - dec 2022",
       icon: <FaBriefcase/>,

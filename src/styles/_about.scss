@@ -1,6 +1,12 @@
+.about-container {
+    @include centerAbout;
+}
+
 .about {
     padding-top: 4em;
-    
+    width: 80%;
+    @include centerAbout;
+
     h1 {
         font-size: 25px;
         text-align: center;
@@ -10,6 +16,7 @@
     p {
         text-align: center;
         margin-bottom: 4em;
+        width: 95%;
     }
 
     span {

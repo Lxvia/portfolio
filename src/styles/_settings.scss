@@ -31,6 +31,12 @@ $yellow: #feeb7b;
     text-align: center;
 }
 
+@mixin centerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @mixin verticalCenter {
     display: flex;
     flex-direction: column;
