@@ -14,11 +14,11 @@ const Projects = () => {
     <div className="projects">
       <h1>Mes projets</h1>
       <div className="gallery">
-          {projects.map((el, i ) => {
-              <div className="project-img">
-                  <img src={el.photo} alt={el.title} key={i} />
+          {projects.map((el, i) => (
+              <div className="project-img" key={i}>
+                  <img src={el.photo} alt={el.title} />
               </div>
-          })}
+          ))}
       </div>
     </div>
   );

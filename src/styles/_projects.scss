@@ -1,19 +1,23 @@
 .projects {
     @include verticalCenter;
+    padding-top: 5em;
+    background-color: $purple;
 
     .gallery{
-        background-color: aqua;
-        height: 10em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
         .project-img{
-            height: 5em;
-            width: auto;
-            background-color: black;
+            width: 30em;
+
+            img{
+                width: 100%;
+                height: auto;
+                cursor: pointer;
+            }
         }
     }
 
-    img{
-        width: 100%;
-        height: auto;
-    }
 }
