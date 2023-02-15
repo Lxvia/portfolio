@@ -59,7 +59,7 @@ const Timeline = () => {
       description:
         "Développement d'applications et maintenance des sites internet. Organisation des différents évènements.",
       compagny: "Google Developer Group Strasbourg ·  Bénévolat",
-      date: "En cours",
+      date: "Depuis oct. 2022",
       icon: <FaBriefcase/>,
     },
   ];
