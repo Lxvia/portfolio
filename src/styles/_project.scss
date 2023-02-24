@@ -1,8 +1,8 @@
 .project{
-    padding-top: 10em;
+    padding-top: 8em;
     background-color: $purple;
 
-    .container {
+    .text-container {
         @include marginCenter;
         width: 80%;
 

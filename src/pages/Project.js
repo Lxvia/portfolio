@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import projects from "../../src/data/projects";
+import ButtonBack from "../components/ButtonBack";
 
 const Project = () => {
   const { projectSlug } = useParams();
@@ -9,7 +10,8 @@ const Project = () => {
 
   return (
     <div className="project">
-      <div className="container">
+      <ButtonBack />
+      <div className="text-container">
         <h1>{findProject.title}</h1>
         <p>{findProject.description}</p>
       </div>

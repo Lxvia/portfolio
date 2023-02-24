@@ -1,0 +1,15 @@
+.btn-back {
+    @include marginCenter;
+    width: 80%;
+    margin-bottom: 5em;
+
+    button{
+        padding: 0.5em 1.5em 0.5em 1.5em;
+        background-color: $yellow;
+        font: $font;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: $black;
+    }
+}
