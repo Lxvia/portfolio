@@ -1,14 +1,7 @@
 import React from "react";
-import epidaure from "../assets/images/mockups/mockup_epidaure.png";
-import zorya from "../assets/images/mockups/mockup_zorya.png";
-import strasdev from "../assets/images/mockups/mockup_strasdev.png";
+import projects from '../../src/data/projects.js'
 
 const Projects = () => {
-  const projects = [
-    { title: "Epidaure", photo: epidaure },
-    { title: "Zorya", photo: zorya },
-    { title: "Stras.Dev", photo: strasdev },
-  ];
 
   return (
     <div className="projects">
