@@ -10,7 +10,8 @@ const App = () => {
      <Navbar />
      <Routes>
        <Route path='/' element={<Main />}/>
-       <Route path='/project' element={<Project />} />
+       <Route path='*' element={<Main />}/>
+       <Route path=':projectSlug' element={<Project />} />
      </Routes>
     </BrowserRouter>
   );

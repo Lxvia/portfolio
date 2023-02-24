@@ -1,0 +1,9 @@
+.project{
+    @include marginCenter;
+    padding-top: 10em;
+    width: 80%;
+
+    h1 {
+        text-align: center;
+    }
+}
