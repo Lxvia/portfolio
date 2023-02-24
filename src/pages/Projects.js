@@ -8,7 +8,6 @@ const Projects = () => {
   return (
     <div className="projects">
       <h1>Mes projets</h1>
-      <p>(Détails à venir)</p>
       <div className="gallery">
         {[...projects].reverse().map((project, i) => (
           <Link to={project.slug} className="project-img" key={i}>
