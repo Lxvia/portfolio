@@ -1,9 +1,22 @@
 .project{
-    @include marginCenter;
     padding-top: 10em;
-    width: 80%;
+    background-color: $purple;
 
-    h1 {
-        text-align: center;
+    .container {
+        @include marginCenter;
+        width: 80%;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        p {
+            text-align: center;
+        }
     }
+        
+        img {
+            width: 100%;
+        }
 }
