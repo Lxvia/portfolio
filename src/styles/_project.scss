@@ -5,6 +5,7 @@
     .text-container {
         @include marginCenter;
         width: 80%;
+        margin-top: 5em;
 
         h1 {
             text-align: center;
@@ -19,4 +20,14 @@
         img {
             width: 100%;
         }
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        padding-top: 6em;
+
+        .text-container {
+            margin-top: 3em;
+        }
+    }
 }

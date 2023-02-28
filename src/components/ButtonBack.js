@@ -12,8 +12,6 @@ const ButtonBack = () => {
     <div className="btn-back">
       <button onClick={goBack}>
         Retour
-        <span className="btn-back-icon"></span>
-        <FontAwesomeIcon icon="fa-solid fa-caret-left" />
       </button>
     </div>
   );
