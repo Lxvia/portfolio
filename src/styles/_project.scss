@@ -1,22 +1,58 @@
-.project{
-    padding-top: 8em;
+.project {
+    padding-top: 3em;
     background-color: $purple;
 
     .text-container {
         @include marginCenter;
         width: 80%;
+        margin-top: 5em;
 
-        h1 {
-            text-align: center;
-            margin-bottom: 1em;
+        .title-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+            gap: 0.8em;
+
+            h1 {
+                text-align: center;
+                margin-bottom: 1em;
+            }
+
+            p {
+                color: $yellow;
+                text-transform: uppercase;
+                font-family: $font;
+                font-size: 13px;
+            }
         }
+
+
 
         p {
             text-align: center;
         }
     }
-        
-        img {
-            width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        .text-container {
+            margin-top: 3em;
         }
+
+        .title-container {
+            gap: 0em !important;
+            margin-bottom: 1.5em;
+            
+            h1 {
+                margin-bottom: 0em !important;
+            }
+        }
+    }
 }

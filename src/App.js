@@ -9,10 +9,14 @@ const App = () => {
   return (  
     <BrowserRouter>
     <ScrollToTop />
-     <Navbar />
      <Routes>
-       <Route path='/' element={<Main />}/>
-       <Route path='*' element={<Main />}/>
+       <Route path='/' element={
+            <>
+              <Navbar />
+              <Main />
+            </>
+          }
+        />
        <Route path=':projectSlug' element={<Project />} />
      </Routes>
     </BrowserRouter>

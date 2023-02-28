@@ -62,3 +62,22 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+
+    .home {
+        padding-top: 6em;
+        gap: 3em;
+        
+        img {
+            width: 350px;
+        }
+
+        h1 {
+            font-size: 45px;
+            line-height: 60px;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+    }
+}

@@ -12,7 +12,10 @@ const Project = () => {
     <div className="project">
       <ButtonBack />
       <div className="text-container">
-        <h1>{findProject.title}</h1>
+        <div className="title-container">
+          <h1>{findProject.title}</h1>
+          <p>{findProject.status}</p>
+        </div>
         <p>{findProject.description}</p>
       </div>
       <img src={findProject.photo} alt="" />
