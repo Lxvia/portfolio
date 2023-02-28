@@ -1,5 +1,5 @@
 .project{
-    padding-top: 8em;
+    padding-top: 3em;
     background-color: $purple;
 
     .text-container {
@@ -24,8 +24,6 @@
 
 @media only screen and (max-width: 768px) {
     .project {
-        padding-top: 6em;
-
         .text-container {
             margin-top: 3em;
         }
