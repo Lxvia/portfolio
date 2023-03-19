@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Scroll from "react-scroll";
 import {
   Link,
@@ -10,16 +10,16 @@ import {
   scroller,
 } from "react-scroll";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
+import { ThemeContext } from "../contexts/ThemeContext";
+
+
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkmode" === "true"));
+  const { theme, setTheme } = useContext(ThemeContext);
 
-  useEffect(() =>{
-    localStorage.setItem("darkmode", darkMode)
-  }, [darkMode])
-
-  const toggleDarkMode = () => {
-    darkMode? setDarkMode(false) : setDarkMode(true)
+  const toggleTheme = () => {
+    setTheme(!theme)
+    console.log(theme);
   };
 
   return (
@@ -55,9 +55,8 @@ const Navbar = () => {
         </Link>
       </div>
       <DarkModeSwitch
-      checked={darkMode}
-      onChange={toggleDarkMode}
-    />
+              checked={theme}
+              onChange={toggleTheme}/>
     </div>
   );
 };

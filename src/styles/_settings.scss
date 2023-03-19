@@ -69,3 +69,23 @@ $yellow-hover: #ffe553;
         color: $black;
     }
 }
+
+.dark {
+    background-color: $black;
+
+    h1, p {
+        color: white;
+    }
+
+    .navbar{
+        background-color: $black;
+
+        .navlink {
+            color: white !important;
+        }
+    }
+}
+
+.light {
+    background-color: white;
+}
