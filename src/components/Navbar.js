@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Scroll from "react-scroll";
 import {
   Link,
@@ -9,8 +9,19 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
+import { ThemeContext } from "../contexts/ThemeContext";
+
+
 
 const Navbar = () => {
+  const { theme, setTheme } = useContext(ThemeContext);
+
+  const toggleTheme = () => {
+    setTheme(!theme)
+    console.log(theme);
+  };
+
   return (
     <div className="navbar">
       <h1>olivia.</h1>
@@ -43,7 +54,9 @@ const Navbar = () => {
           projets
         </Link>
       </div>
-        <p></p>
+      <DarkModeSwitch
+              checked={theme}
+              onChange={toggleTheme}/>
     </div>
   );
 };
