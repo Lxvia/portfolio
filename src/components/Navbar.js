@@ -56,7 +56,9 @@ const Navbar = () => {
       </div>
       <DarkModeSwitch
               checked={theme}
-              onChange={toggleTheme}/>
+              onChange={toggleTheme}
+              sunColor="#272727"
+              moonColor="#feeb7b"/>
     </div>
   );
 };
