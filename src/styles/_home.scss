@@ -23,10 +23,10 @@
                 font-size: 15px;
                 cursor: pointer;
 
-                &:hover{
-                   text-decoration: none; 
+                &:hover {
+                    text-decoration: none;
                 }
-                
+
             }
 
             .btn-contact {
@@ -54,6 +54,10 @@
         text-align: left;
         line-height: 55pt;
 
+        ::selection {
+            color: $yellow;
+        }
+
         span {
             background-color: $purple;
             border-radius: 5px;
@@ -68,10 +72,11 @@
     .home {
         padding-top: 6em;
         gap: 3em;
-        
+
         img {
             width: 80%;
         }
+
         .home-right {
             h1 {
                 font-size: 45px;

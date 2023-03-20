@@ -2,6 +2,10 @@
     padding-top: 3em;
     background-color: $purple;
 
+    ::selection {
+        color: $yellow;
+    }
+
     .text-container {
         @include marginCenter;
         width: 80%;

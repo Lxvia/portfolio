@@ -9,6 +9,10 @@
         border-radius: 9px;
         font-family: $font;
 
+        ::selection {
+            color: $yellow;
+        }
+
         small{
             color: $yellow;
         }
