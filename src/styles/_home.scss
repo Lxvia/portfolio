@@ -63,21 +63,22 @@
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 955px) {
 
     .home {
         padding-top: 6em;
         gap: 3em;
         
         img {
-            width: 350px;
+            width: 80%;
         }
-
-        h1 {
-            font-size: 45px;
-            line-height: 60px;
-            text-align: center;
-            margin-bottom: 0.5em;
+        .home-right {
+            h1 {
+                font-size: 45px;
+                line-height: 60px;
+                text-align: center;
+                margin-bottom: 0.5em;
+            }
         }
     }
 }
