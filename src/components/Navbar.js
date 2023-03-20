@@ -12,19 +12,19 @@ import {
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { ThemeContext } from "../contexts/ThemeContext";
 
-
-
 const Navbar = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   const toggleTheme = () => {
-    setTheme(!theme)
+    setTheme(!theme);
     console.log(theme);
   };
 
   return (
     <div className="navbar">
-      <h1>olivia.</h1>
+      <Link to="home">
+        <h1>olivia.</h1>
+      </Link>
       <div className="navlinks">
         <Link
           className="navlink"
@@ -55,8 +55,11 @@ const Navbar = () => {
         </Link>
       </div>
       <DarkModeSwitch
-              checked={theme}
-              onChange={toggleTheme}/>
+        checked={theme}
+        onChange={toggleTheme}
+        sunColor="#272727"
+        moonColor="#feeb7b"
+      />
     </div>
   );
 };
