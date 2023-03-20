@@ -9,7 +9,7 @@ const projects = [
     photo: epidaure,
     slug: "epidaure",
     description:
-      "Epidaure est une application d'organisation déstinée aux professionnels de santé. Nous l'avons réalisée pour une osthéopathe rencontrant des difficultés à planifier les consultations au sein de son cabinet médical. Grâce à cette app, chaque praticien peut consulter, modifier son planning ou toutes autres informations nécessaires en temps réel. Réalisée dans le cadre de mon Bac+2 en Développement Web, ce site internet hebergé sur Heroku fonctionne avec une API et un Back-End en Ruby-on-Rails. Pour le Front-End, React.js et Tailwind ont été utilisés",
+      <p>Epidaure est une application d'organisation déstinée aux professionnels de santé.<br/>Nous l'avons réalisée pour une osthéopathe rencontrant des difficultés à planifier les consultations au sein de son cabinet médical.<br/> Grâce à cette app, chaque praticien peut consulter, modifier son planning ou toutes autres informations nécessaires en temps réel.<br/><br/> Réalisé dans le cadre de mon Bac+2 en Développement Web, ce site internet hebergé sur Heroku fonctionne avec une API et un Back-End en Ruby-on-Rails.<br/> Pour le Front-End, React.js et Tailwind ont été utilisés.</p>,
   },
   {
     title: "Zorya",
@@ -17,7 +17,7 @@ const projects = [
     photo: zorya,
     slug: "zorya",
     description:
-      "Zorya est une plateforme de E-Learning déstinée aux professionnels souhaitant former leurs employés sur divers sujets en lien avec la cybersécurité. Réalisé dans le cadre de mon Bac+2 en Développement Web, Ruby-on-Rails et Tailwind css ont été utilisés pour le Back-end ainsi que le Front-End. Heroku est utilisé pour l'hebergement",
+      <p>Zorya est une plateforme de E-Learning déstinée aux professionnels souhaitant former leurs employés sur divers sujets en lien avec la cybersécurité.<br/><br/> Réalisé dans le cadre de mon Bac+2 en Développement Web, Ruby-on-Rails et Tailwind css ont été utilisés pour le Back-end ainsi que le Front-End.<br/> Heroku est utilisé pour l'hebergement.</p>,
   },
   {
     title: "Stras.Dev",
@@ -25,7 +25,7 @@ const projects = [
     photo: strasdev,
     slug: "strasdev",
     description:
-      "Stras Dev est un site regroupant tous les évenenements du Grand-Est en lien avec le monde de l'informatique, qui jusqu'a présent étaient dispatchés sur plusieurs plateformes. Je l'ai réalisé pour Capitale Dev (de Google Developers Group Strasbourg), association dans laquelle j'occupe le poste de Développeuse Full-Stack. J'ai utilisé Firebase pour le Back-End et l'hebergement, puis React.js pour le Front-End.",
+      <p>Stras Dev est un site regroupant tous les évenenements du Grand-Est en lien avec le monde de l'informatique, qui jusqu'a présent étaient dispatchés sur plusieurs plateformes.<br/><br/> Je l'ai réalisé pour Capitale Dev (de Google Developers Group Strasbourg), association dans laquelle j'occupe le poste de Développeuse Full-Stack. <br/>J'ai utilisé Firebase pour le Back-End et l'hebergement, puis React.js pour le Front-End.</p>,
   },
 ];
 
