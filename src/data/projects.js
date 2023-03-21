@@ -1,6 +1,6 @@
-import epidaure from "../assets/images/mockups/mockup_epidaure.jpg";
-import zorya from "../assets/images/mockups/mockup_zorya.jpg";
-import strasdev from "../assets/images/mockups/mockup_strasdev.jpg";
+import epidaure from "../assets/images/mockups/mockup_epidaure.png";
+import zorya from "../assets/images/mockups/mockup_zorya.png";
+import strasdev from "../assets/images/mockups/mockup_strasdev.png";
 
 const projects = [
   {
