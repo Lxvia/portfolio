@@ -1,6 +1,7 @@
 import epidaure from "../assets/images/mockups/mockup_epidaure.png";
 import zorya from "../assets/images/mockups/mockup_zorya.png";
 import strasdev from "../assets/images/mockups/mockup_strasdev.png";
+import portfolio from "../assets/images/mockups/mockup_portfolio.png";
 
 const projects = [
   {
@@ -26,6 +27,14 @@ const projects = [
     slug: "strasdev",
     description:
       <p>Stras Dev est un site regroupant tous les évenenements du Grand-Est en lien avec le monde de l'informatique, qui jusqu'a présent étaient dispatchés sur plusieurs plateformes.<br/><br/> Je l'ai réalisé pour Capitale Dev (de Google Developers Group Strasbourg), association dans laquelle j'occupe le poste de Développeuse Full-Stack. <br/>J'ai utilisé Firebase pour le Back-End et l'hebergement, puis React.js pour le Front-End.</p>,
+  },
+  {
+    title: "Portfolio",
+    status: " ",
+    photo: portfolio,
+    slug: "portfolio",
+    description:
+      <p>Mon porfolio personnel, sur lequel vous êtes entrain de consulter cette page. Je l'ai réalisé avec React JS.</p>,
   },
 ];
 
